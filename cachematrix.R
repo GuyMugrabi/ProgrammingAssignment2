@@ -31,6 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # The function cacheSolve() returns the inverse of a matrix created 
 # with the makeCacheMatrix function.
 # This function assumes that the matrix is always invertible.
+# The function expects a matrix object created by using makeCacheMatrix
 cacheSolve <- function(x, ...) {
      
      # Return a cached matrix that is the inverse of 'x'
